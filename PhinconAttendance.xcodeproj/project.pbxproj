@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		084B676A2A581461009A6158 /* RegisterView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 084B67692A581461009A6158 /* RegisterView.storyboard */; };
+		084B676C2A5814D0009A6158 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084B676B2A5814D0009A6158 /* RegisterViewController.swift */; };
+		087069842A5A9E64002BA847 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087069822A5A9E64002BA847 /* HistoryTableViewCell.swift */; };
+		087069852A5A9E64002BA847 /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 087069832A5A9E64002BA847 /* HistoryTableViewCell.xib */; };
+		087069892A5AA1DF002BA847 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087069882A5AA1DF002BA847 /* ModelData.swift */; };
+		0870698B2A5AA21C002BA847 /* ModelDummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0870698A2A5AA21C002BA847 /* ModelDummyData.swift */; };
+		0870698D2A5AB41B002BA847 /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0870698C2A5AB41B002BA847 /* ColorUtils.swift */; };
+		087070FD2A597D2F00532E4E /* ForgotPasswordView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087070FC2A597D2F00532E4E /* ForgotPasswordView.storyboard */; };
+		087070FF2A597D4000532E4E /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087070FE2A597D4000532E4E /* ForgotPasswordViewController.swift */; };
+		087071032A5986A200532E4E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087071022A5986A200532E4E /* HomeViewController.swift */; };
+		087071092A59923200532E4E /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087071082A59923200532E4E /* TabBarViewController.swift */; };
+		0870710B2A59943E00532E4E /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0870710A2A59943E00532E4E /* HistoryViewController.swift */; };
+		0870710D2A59946300532E4E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0870710C2A59946300532E4E /* ProfileViewController.swift */; };
+		0870710F2A5994C300532E4E /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0870710E2A5994C300532E4E /* HomeView.storyboard */; };
 		088C8E502A57AECC00D39C7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088C8E4F2A57AECC00D39C7B /* AppDelegate.swift */; };
 		088C8E522A57AECC00D39C7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088C8E512A57AECC00D39C7B /* SceneDelegate.swift */; };
 		088C8E542A57AECC00D39C7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088C8E532A57AECC00D39C7B /* ViewController.swift */; };
@@ -14,9 +28,25 @@
 		088C8E5A2A57AECC00D39C7B /* PhinconAttendance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 088C8E582A57AECC00D39C7B /* PhinconAttendance.xcdatamodeld */; };
 		088C8E5C2A57AED000D39C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 088C8E5B2A57AED000D39C7B /* Assets.xcassets */; };
 		088C8E5F2A57AED000D39C7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088C8E5D2A57AED000D39C7B /* LaunchScreen.storyboard */; };
+		088C8E672A57E47F00D39C7B /* LoginView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088C8E662A57E47F00D39C7B /* LoginView.storyboard */; };
+		088C8E692A57E49A00D39C7B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088C8E682A57E49A00D39C7B /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		084B67692A581461009A6158 /* RegisterView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegisterView.storyboard; sourceTree = "<group>"; };
+		084B676B2A5814D0009A6158 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		087069822A5A9E64002BA847 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		087069832A5A9E64002BA847 /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryTableViewCell.xib; sourceTree = "<group>"; };
+		087069882A5AA1DF002BA847 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		0870698A2A5AA21C002BA847 /* ModelDummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDummyData.swift; sourceTree = "<group>"; };
+		0870698C2A5AB41B002BA847 /* ColorUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtils.swift; sourceTree = "<group>"; };
+		087070FC2A597D2F00532E4E /* ForgotPasswordView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ForgotPasswordView.storyboard; sourceTree = "<group>"; };
+		087070FE2A597D4000532E4E /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		087071022A5986A200532E4E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		087071082A59923200532E4E /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		0870710A2A59943E00532E4E /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		0870710C2A59946300532E4E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0870710E2A5994C300532E4E /* HomeView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeView.storyboard; sourceTree = "<group>"; };
 		088C8E4C2A57AECC00D39C7B /* PhinconAttendance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhinconAttendance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		088C8E4F2A57AECC00D39C7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		088C8E512A57AECC00D39C7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +56,8 @@
 		088C8E5B2A57AED000D39C7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		088C8E5E2A57AED000D39C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		088C8E602A57AED000D39C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		088C8E662A57E47F00D39C7B /* LoginView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginView.storyboard; sourceTree = "<group>"; };
+		088C8E682A57E49A00D39C7B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +71,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		087069812A5A9E3C002BA847 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				087069822A5A9E64002BA847 /* HistoryTableViewCell.swift */,
+				087069832A5A9E64002BA847 /* HistoryTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		087069862A5AA1BE002BA847 /* ModelData */ = {
+			isa = PBXGroup;
+			children = (
+				087069882A5AA1DF002BA847 /* ModelData.swift */,
+			);
+			path = ModelData;
+			sourceTree = "<group>";
+		};
+		087069872A5AA1C4002BA847 /* ModelDummyData */ = {
+			isa = PBXGroup;
+			children = (
+				0870698A2A5AA21C002BA847 /* ModelDummyData.swift */,
+			);
+			path = ModelDummyData;
+			sourceTree = "<group>";
+		};
+		087070FA2A5971A500532E4E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				087069812A5A9E3C002BA847 /* Cell */,
+				088C8E662A57E47F00D39C7B /* LoginView.storyboard */,
+				084B67692A581461009A6158 /* RegisterView.storyboard */,
+				087070FC2A597D2F00532E4E /* ForgotPasswordView.storyboard */,
+				0870710E2A5994C300532E4E /* HomeView.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		087070FB2A5971B100532E4E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				088C8E682A57E49A00D39C7B /* LoginViewController.swift */,
+				084B676B2A5814D0009A6158 /* RegisterViewController.swift */,
+				087070FE2A597D4000532E4E /* ForgotPasswordViewController.swift */,
+				087071022A5986A200532E4E /* HomeViewController.swift */,
+				087071082A59923200532E4E /* TabBarViewController.swift */,
+				0870710A2A59943E00532E4E /* HistoryViewController.swift */,
+				0870710C2A59946300532E4E /* ProfileViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		088C66582A5A8B3600BD9C00 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0870698C2A5AB41B002BA847 /* ColorUtils.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		088C8E432A57AECC00D39C7B = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +149,11 @@
 		088C8E4E2A57AECC00D39C7B /* PhinconAttendance */ = {
 			isa = PBXGroup;
 			children = (
+				087069872A5AA1C4002BA847 /* ModelDummyData */,
+				087069862A5AA1BE002BA847 /* ModelData */,
+				088C66582A5A8B3600BD9C00 /* Extension */,
+				087070FB2A5971B100532E4E /* ViewController */,
+				087070FA2A5971A500532E4E /* View */,
 				088C8E4F2A57AECC00D39C7B /* AppDelegate.swift */,
 				088C8E512A57AECC00D39C7B /* SceneDelegate.swift */,
 				088C8E532A57AECC00D39C7B /* ViewController.swift */,
@@ -129,8 +225,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				088C8E5F2A57AED000D39C7B /* LaunchScreen.storyboard in Resources */,
+				0870710F2A5994C300532E4E /* HomeView.storyboard in Resources */,
 				088C8E5C2A57AED000D39C7B /* Assets.xcassets in Resources */,
+				084B676A2A581461009A6158 /* RegisterView.storyboard in Resources */,
 				088C8E572A57AECC00D39C7B /* Main.storyboard in Resources */,
+				088C8E672A57E47F00D39C7B /* LoginView.storyboard in Resources */,
+				087069852A5A9E64002BA847 /* HistoryTableViewCell.xib in Resources */,
+				087070FD2A597D2F00532E4E /* ForgotPasswordView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,9 +243,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				088C8E5A2A57AECC00D39C7B /* PhinconAttendance.xcdatamodeld in Sources */,
+				087070FF2A597D4000532E4E /* ForgotPasswordViewController.swift in Sources */,
+				087069842A5A9E64002BA847 /* HistoryTableViewCell.swift in Sources */,
 				088C8E542A57AECC00D39C7B /* ViewController.swift in Sources */,
+				0870698B2A5AA21C002BA847 /* ModelDummyData.swift in Sources */,
+				0870710B2A59943E00532E4E /* HistoryViewController.swift in Sources */,
+				0870698D2A5AB41B002BA847 /* ColorUtils.swift in Sources */,
+				087071032A5986A200532E4E /* HomeViewController.swift in Sources */,
+				087071092A59923200532E4E /* TabBarViewController.swift in Sources */,
+				0870710D2A59946300532E4E /* ProfileViewController.swift in Sources */,
 				088C8E502A57AECC00D39C7B /* AppDelegate.swift in Sources */,
+				084B676C2A5814D0009A6158 /* RegisterViewController.swift in Sources */,
+				088C8E692A57E49A00D39C7B /* LoginViewController.swift in Sources */,
 				088C8E522A57AECC00D39C7B /* SceneDelegate.swift in Sources */,
+				087069892A5AA1DF002BA847 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
