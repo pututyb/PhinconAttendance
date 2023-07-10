@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		084B676A2A581461009A6158 /* RegisterView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 084B67692A581461009A6158 /* RegisterView.storyboard */; };
 		084B676C2A5814D0009A6158 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084B676B2A5814D0009A6158 /* RegisterViewController.swift */; };
+		085CD98F2A5BCED500BAC6A4 /* ChangeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085CD98D2A5BCED500BAC6A4 /* ChangeCollectionViewCell.swift */; };
+		085CD9902A5BCED500BAC6A4 /* ChangeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 085CD98E2A5BCED500BAC6A4 /* ChangeCollectionViewCell.xib */; };
+		085CD9942A5BD1A800BAC6A4 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085CD9932A5BD1A700BAC6A4 /* CollectionViewController.swift */; };
+		085CD9962A5BD9C200BAC6A4 /* ChangeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085CD9952A5BD9C200BAC6A4 /* ChangeDetailViewController.swift */; };
 		087069842A5A9E64002BA847 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087069822A5A9E64002BA847 /* HistoryTableViewCell.swift */; };
 		087069852A5A9E64002BA847 /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 087069832A5A9E64002BA847 /* HistoryTableViewCell.xib */; };
 		087069892A5AA1DF002BA847 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087069882A5AA1DF002BA847 /* ModelData.swift */; };
@@ -21,6 +25,7 @@
 		0870710B2A59943E00532E4E /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0870710A2A59943E00532E4E /* HistoryViewController.swift */; };
 		0870710D2A59946300532E4E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0870710C2A59946300532E4E /* ProfileViewController.swift */; };
 		0870710F2A5994C300532E4E /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0870710E2A5994C300532E4E /* HomeView.storyboard */; };
+		08821BE22A5BF637006DA63B /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08821BE12A5BF637006DA63B /* View+Extension.swift */; };
 		088C8E502A57AECC00D39C7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088C8E4F2A57AECC00D39C7B /* AppDelegate.swift */; };
 		088C8E522A57AECC00D39C7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088C8E512A57AECC00D39C7B /* SceneDelegate.swift */; };
 		088C8E542A57AECC00D39C7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088C8E532A57AECC00D39C7B /* ViewController.swift */; };
@@ -35,6 +40,10 @@
 /* Begin PBXFileReference section */
 		084B67692A581461009A6158 /* RegisterView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegisterView.storyboard; sourceTree = "<group>"; };
 		084B676B2A5814D0009A6158 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		085CD98D2A5BCED500BAC6A4 /* ChangeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeCollectionViewCell.swift; sourceTree = "<group>"; };
+		085CD98E2A5BCED500BAC6A4 /* ChangeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangeCollectionViewCell.xib; sourceTree = "<group>"; };
+		085CD9932A5BD1A700BAC6A4 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		085CD9952A5BD9C200BAC6A4 /* ChangeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeDetailViewController.swift; sourceTree = "<group>"; };
 		087069822A5A9E64002BA847 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
 		087069832A5A9E64002BA847 /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryTableViewCell.xib; sourceTree = "<group>"; };
 		087069882A5AA1DF002BA847 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
@@ -47,6 +56,7 @@
 		0870710A2A59943E00532E4E /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		0870710C2A59946300532E4E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		0870710E2A5994C300532E4E /* HomeView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeView.storyboard; sourceTree = "<group>"; };
+		08821BE12A5BF637006DA63B /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		088C8E4C2A57AECC00D39C7B /* PhinconAttendance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhinconAttendance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		088C8E4F2A57AECC00D39C7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		088C8E512A57AECC00D39C7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		085CD9862A5BBCD600BAC6A4 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				085CD98D2A5BCED500BAC6A4 /* ChangeCollectionViewCell.swift */,
+				085CD98E2A5BCED500BAC6A4 /* ChangeCollectionViewCell.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
 		087069812A5A9E3C002BA847 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +118,7 @@
 		087070FA2A5971A500532E4E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				085CD9862A5BBCD600BAC6A4 /* CollectionViewCell */,
 				087069812A5A9E3C002BA847 /* Cell */,
 				088C8E662A57E47F00D39C7B /* LoginView.storyboard */,
 				084B67692A581461009A6158 /* RegisterView.storyboard */,
@@ -118,6 +138,8 @@
 				087071082A59923200532E4E /* TabBarViewController.swift */,
 				0870710A2A59943E00532E4E /* HistoryViewController.swift */,
 				0870710C2A59946300532E4E /* ProfileViewController.swift */,
+				085CD9932A5BD1A700BAC6A4 /* CollectionViewController.swift */,
+				085CD9952A5BD9C200BAC6A4 /* ChangeDetailViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -126,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				0870698C2A5AB41B002BA847 /* ColorUtils.swift */,
+				08821BE12A5BF637006DA63B /* View+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -230,6 +253,7 @@
 				084B676A2A581461009A6158 /* RegisterView.storyboard in Resources */,
 				088C8E572A57AECC00D39C7B /* Main.storyboard in Resources */,
 				088C8E672A57E47F00D39C7B /* LoginView.storyboard in Resources */,
+				085CD9902A5BCED500BAC6A4 /* ChangeCollectionViewCell.xib in Resources */,
 				087069852A5A9E64002BA847 /* HistoryTableViewCell.xib in Resources */,
 				087070FD2A597D2F00532E4E /* ForgotPasswordView.storyboard in Resources */,
 			);
@@ -245,11 +269,15 @@
 				088C8E5A2A57AECC00D39C7B /* PhinconAttendance.xcdatamodeld in Sources */,
 				087070FF2A597D4000532E4E /* ForgotPasswordViewController.swift in Sources */,
 				087069842A5A9E64002BA847 /* HistoryTableViewCell.swift in Sources */,
+				08821BE22A5BF637006DA63B /* View+Extension.swift in Sources */,
 				088C8E542A57AECC00D39C7B /* ViewController.swift in Sources */,
 				0870698B2A5AA21C002BA847 /* ModelDummyData.swift in Sources */,
 				0870710B2A59943E00532E4E /* HistoryViewController.swift in Sources */,
+				085CD98F2A5BCED500BAC6A4 /* ChangeCollectionViewCell.swift in Sources */,
 				0870698D2A5AB41B002BA847 /* ColorUtils.swift in Sources */,
+				085CD9962A5BD9C200BAC6A4 /* ChangeDetailViewController.swift in Sources */,
 				087071032A5986A200532E4E /* HomeViewController.swift in Sources */,
+				085CD9942A5BD1A800BAC6A4 /* CollectionViewController.swift in Sources */,
 				087071092A59923200532E4E /* TabBarViewController.swift in Sources */,
 				0870710D2A59946300532E4E /* ProfileViewController.swift in Sources */,
 				088C8E502A57AECC00D39C7B /* AppDelegate.swift in Sources */,

@@ -8,6 +8,9 @@
 import UIKit
 
 class ColorUtils {
+    
+    static let shared = ColorUtils()
+    
     static func greyBtnColor() -> UIColor {
         let red: CGFloat = 0.6
         let green: CGFloat = 0.6
@@ -26,3 +29,5 @@ class ColorUtils {
         return UIColor(red: red, green: green, blue: blue, alpha: alpha)
     }
 }
+
+

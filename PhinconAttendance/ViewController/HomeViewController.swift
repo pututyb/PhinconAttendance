@@ -22,12 +22,10 @@ class HomeViewController: UIViewController {
         if isOrange {
             btnCircle.backgroundColor = .green
             btnCircle.setTitle("CHECK IN", for: .normal)
-            btnCircle.titleLabel?.font = UIFont.systemFont(ofSize: 30.0, weight: .bold)
             print("Green")
         } else {
             btnCircle.backgroundColor = .orange
             btnCircle.setTitle("CHECK OUT", for: .normal)
-            btnCircle.titleLabel?.font = UIFont.systemFont(ofSize: 30.0, weight: .bold)
             print("Orange")
         }
     }
